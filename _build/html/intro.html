@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Práctica de Desarrollo de SOftware Dirigido por Modelos &#8212; My sample book</title>
+    <title>Tutorial para el uso de librería modeling en Eclipse Linux &#8212; My sample book</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -108,7 +108,7 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1 current active">
                 <a class="reference internal" href="#">
-                    Práctica de Desarrollo de SOftware Dirigido por Modelos
+                    Tutorial para el uso de librería modeling en Eclipse Linux
                 </a>
             </li>
         </ul>
@@ -283,23 +283,94 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#desarrollado-por">
+   Desarrollado por
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prerequisitos">
+   Prerequisitos
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pasos">
+     Pasos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#instalacion-de-modeling-en-eclipse">
+   Instalación de Modeling en Eclipse
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Práctica de Desarrollo de SOftware Dirigido por Modelos</h1>
+                <h1>Tutorial para el uso de librería modeling en Eclipse Linux</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#desarrollado-por">
+   Desarrollado por
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prerequisitos">
+   Prerequisitos
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pasos">
+     Pasos
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#instalacion-de-modeling-en-eclipse">
+   Instalación de Modeling en Eclipse
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -307,12 +378,37 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="practica-de-desarrollo-de-software-dirigido-por-modelos">
-<h1>Práctica de Desarrollo de SOftware Dirigido por Modelos<a class="headerlink" href="#practica-de-desarrollo-de-software-dirigido-por-modelos" title="Permalink to this headline">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="tutorial-para-el-uso-de-libreria-modeling-en-eclipse-linux">
+<h1>Tutorial para el uso de librería modeling en Eclipse Linux<a class="headerlink" href="#tutorial-para-el-uso-de-libreria-modeling-en-eclipse-linux" title="Permalink to this headline">#</a></h1>
 <p>This is a small sample book to give you a feel for how book content is
 structured.
 It shows off a few of the major file types, as well as some sample content.
 It does not go in-depth into any particular topic - check out <a class="reference external" href="https://jupyterbook.org">the Jupyter Book documentation</a> for more information.</p>
+<section id="desarrollado-por">
+<h2>Desarrollado por<a class="headerlink" href="#desarrollado-por" title="Permalink to this headline">#</a></h2>
+<p>Freddy Alexander Chamorro Encalada</p>
+</section>
+<section id="prerequisitos">
+<h2>Prerequisitos<a class="headerlink" href="#prerequisitos" title="Permalink to this headline">#</a></h2>
+<ul class="simple">
+<li><p>Descargar Eclipse Platform Runtime Binary (binario genérico comprimido en TAR.GZ)</p></li>
+<li><p>Descargar Java Development Kit (binario genérico comprimido en TAR.GZ)</p></li>
+</ul>
+<section id="pasos">
+<h3>Pasos<a class="headerlink" href="#pasos" title="Permalink to this headline">#</a></h3>
+<ol class="simple">
+<li><p>Descomprimimos el archivo de eclipse descargado con extensión TAR.GZ en cualquier carpeta de nuestro sistema. Debería crearnos una carpeta con el nombre “eclipse”. No ejecutamos aún.</p></li>
+<li><p>Descomprimimos el archivo descargado “jdk1.X.X_XX” con extensión TAR.GZZ en cualquier carpeta de nuestro sistema. Debería crearnos una carpeta con un nombre del tipo “jdk1.X.X_XX”(la numeración dependerá de la versión que nos hayamos descargado)</p></li>
+<li><p>Cortamos y pegamos esta carpeta dentro de la carpeta “eclipse” que obtuvimos en el paso anterior.</p></li>
+<li><p>Renombramos nuestra carpeta “jdk1.X.X_XX” a “jre”.</p></li>
+<li><p>Ejecutamos el arachivo eclipse</p></li>
+</ol>
+</section>
+</section>
+<section id="instalacion-de-modeling-en-eclipse">
+<h2>Instalación de Modeling en Eclipse<a class="headerlink" href="#instalacion-de-modeling-en-eclipse" title="Permalink to this headline">#</a></h2>
+<p>Dirigirse a la opción Help del Menú principal y elegir la opción <strong>Install New Software</strong>
+<img alt="Texto alternativo" src="_images/paso1.png" /></p>
 <p>Check out the content pages bundled with this sample book to see more.</p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -321,6 +417,7 @@ It does not go in-depth into any particular topic - check out <a class="referenc
 <li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
 </ul>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
