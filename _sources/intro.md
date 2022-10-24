@@ -24,11 +24,33 @@ Freddy Alexander Chamorro Encalada
 
 ## Instalación de Modeling en Eclipse
 
-Dirigirse a la opción Help del Menú principal y elegir la opción **Install New Software**
+1. Dirigirse a la opción Help del Menú principal y elegir la opción **Install New Software**
 ![Texto alternativo](/img/paso1.png)
 
+2. Seleccione la opción **Modeling** y dentro de esta seleccione las opciones **Ecore Diagram Editor (SDK)** y **EMF-Eclipse Modeling Framework SDK**
+![Texto alternativo](/img/paso3.png)
 
-Check out the content pages bundled with this sample book to see more.
+3. Seleccionamos el botón **Siguiente** hasta llegar a la pantalla de aceptar las Licencias **Review Licenses** las aceptamos y finalizamos la instalación
+![Texto alternativo](/img/paso7.png)
+
+4. Esperamos un tipo prudencial hasta la descarga de complementos y la instalalción de los mismos.
+![Texto alternativo](/img/paso8.png)
+
+5. Al salir la pantalla **Trust** colocamos la opción unsigned y hacemos click en el botón **Trust Selected**.
+![Texto alternativo](/img/paso10.png)
+
+6. Posteriormente nos pedirá que reinicemos la herramienta Eclipse, hacemos click en el botón **Restart Now** y esperamos a que se inicie de nuevo Eclipse.
+![Texto alternativo](/img/paso11.png)
+
+7. Para verificar que la instalación fue exitosa, creamos un proyecto nuevo y elegimos la opción **Ecore Modeling Proyect** y hacemos click en el botón **Next**.
+![Texto alternativo](/img/paso12.png)
+
+8. Colocamos un nombre al proyecto y hacemos click en el botón **Finish**.
+![Texto alternativo](/img/paso13.png)
+
+9. Luego nos mostrará la pantalla principal del proyecto creado con todas las carecterísticas, herramientas y opciones del mismo.
+![Texto alternativo](/img/paso16.png)
+
 
 ```{tableofcontents}
 ```
