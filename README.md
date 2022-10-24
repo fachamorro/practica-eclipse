@@ -1,1 +1,1 @@
-# practica-eclipse
+# eclipse-modeling
